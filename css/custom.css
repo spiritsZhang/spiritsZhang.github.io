@@ -1,0 +1,26 @@
+:root {
+  --portfolio-blue: #2563eb;
+}
+
+#page-header.full_page {
+  background: linear-gradient(125deg, rgba(15, 23, 42, 0.86), rgba(37, 99, 235, 0.68)), linear-gradient(45deg, #0f172a, #1d4ed8);
+}
+
+#site-title { font-weight: 800; letter-spacing: 0.04em; }
+#site-subtitle { font-weight: 500; }
+#nav .site-page { font-weight: 600; }
+
+#recent-posts > .recent-post-item, .card-widget, #page, #post {
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  box-shadow: 0 12px 34px rgba(15, 23, 42, 0.08);
+}
+
+#article-container h2 { border-left: 4px solid var(--portfolio-blue); padding-left: 0.7rem; }
+#article-container a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.card-info-avatar .avatar-img { border: 3px solid rgba(37, 99, 235, 0.2); }
+.card-info-data > .card-info-data-item:hover, .button--animated:before { background-color: var(--portfolio-blue); }
+
+@media screen and (max-width: 768px) {
+  #site-title { font-size: 1.8rem; }
+  #site-subtitle { padding: 0 1rem; font-size: 0.95rem; }
+}
